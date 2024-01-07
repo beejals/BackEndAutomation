@@ -1,4 +1,5 @@
 # README #
+This repo is created with sample code to show how to implement Test Automation with Python abd BDD Framework
 ## Install ##
 1. download pythod - https://www.python.org/downloads/
     * Make sure to add python home directory and python scripts directory to your PATH environment variable
@@ -13,8 +14,10 @@ pip install behave
 pip install allure-behave
 ```
 ## Run Test ##
-1. tests are defined in the features folder (getAPI.feature)
-2. run the tests
+1. Tests are defined in the features directory as feature files.  This example only contains a single file, getAPI.feature
+    * stepImpl.py defines the implementation of the steps needed to be executed from the feature file(s)
+    * when tests are run using behave, all feature files under the features directory are exercised by default
+2. Run the tests
 
 ```bash
 behave -f allure_behave.formatter:AllureFormatter -o Reports
