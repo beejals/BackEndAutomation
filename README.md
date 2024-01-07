@@ -25,8 +25,8 @@ behave -f allure_behave.formatter:AllureFormatter -o Reports
 ```bash
 allure serve Reports
 ```
-![Screenshot](screenshot1.png)
-![Screenshot](screenshot2.png)
+![Screenshot](screenshot1.PNG)
+![Screenshot](screenshot2.PNG)
 
 ## References ##
 * https://www.jetbrains.com/pycharm/
