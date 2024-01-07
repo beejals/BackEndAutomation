@@ -1,0 +1,4 @@
+# ignore certain directories
+.idea/
+__pycache__/
+Reports/
