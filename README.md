@@ -1,5 +1,5 @@
-# README #
-This repo is created with sample code to show how to implement Test Automation with Python abd BDD Framework
+# Test Automation Demo #
+This repo is created with sample code to show how to implement Test Automation with Python and BDD Framework
 ## Install ##
 1. download pythod - https://www.python.org/downloads/
     * Make sure to add python home directory and python scripts directory to your PATH environment variable
